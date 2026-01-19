@@ -3,7 +3,7 @@ $host = '127.0.0.1';   // not localhost
 $port = '3306';
 $db   = 'my_health_notebook';
 $user = 'appuser';
-$pass = 'StrongPass123!'; // or whatever you set
+$pass = 'StrongPass123'; // or whatever you set
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host={$host};port={$port};dbname={$db};charset={$charset}";
